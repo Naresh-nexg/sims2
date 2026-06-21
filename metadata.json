@@ -1,6 +1,6 @@
 {
-  "name": "",
-  "description": "",
+  "name": "SIMS Healthcare",
+  "description": "Hospital website for SIMS Healthcare, providing medical services, ICU, emergency, and super-specialities in Anantapur.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
