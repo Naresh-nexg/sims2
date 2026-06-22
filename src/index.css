@@ -1,31 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap");
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
 
-  --color-surface: #f8f9ff;
-  --color-surface-dim: #cbdbf5;
-  --color-surface-container: #e5eeff;
-  
-  --color-on-surface: #0b1c30;
-  --color-on-surface-variant: #444748;
+  --color-surface: #f9fafb;
+  --color-surface-dim: #f3f4f6;
+  --color-surface-container: #ffffff;
 
-  --color-primary: #0050cc;
-  --color-primary-hover: #0266ff;
+  --color-on-surface: #111827;
+  --color-on-surface-variant: #4b5563;
+
+  --color-primary: #0f4c81;
+  --color-primary-hover: #0c3c66;
   --color-on-primary: #ffffff;
 
-  --color-secondary-bg: #eaf1ff;
-  --color-on-secondary-bg: #0050cc;
+  --color-secondary-bg: #e0f2fe;
+  --color-on-secondary-bg: #0f4c81;
 
-  --color-border: #dce9ff;
+  --color-teal: #14b8a6;
+  --color-gold: #d4a017;
 
-  --shadow-clinical: 0px 10px 30px 0px rgba(0, 80, 204, 0.05);
+  --color-border: #e5e7eb;
+
+  --shadow-clinical: 0px 10px 30px 0px rgba(15, 76, 129, 0.08);
 }
 
 body {
-  background-color: var(--color-surface);
+  background-color: #ffffff;
   color: var(--color-on-surface);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
 }
